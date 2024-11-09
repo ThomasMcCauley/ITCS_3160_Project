@@ -72,7 +72,7 @@ CREATE TABLE CustomerOrder (
 );
 
 -- PurchaseOrder Table
-CREATE TABLE PurchaseOrder (
+CREATE TABLE SupplierOrder (
     PurchaseOrderID INT AUTO_INCREMENT PRIMARY KEY,
     OwnerID INT,
     SupplierID INT,
